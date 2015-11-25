@@ -1,24 +1,70 @@
 # Android-Tips
 
-学习 Android 至今，大大小小的坑没少踩，庆幸的是，在强大的搜索引擎与无私奉献的人们的帮助下，我遇到的坑都顺利地被填平了。
+This is an awesome list of tips for android. 
 
-为了便于日后遇到同样的问题时，能免于再次搜索带来的麻烦，我养成了收藏书签的习惯，随着书签（Tips）的日积月累，我想，是时候该有这个项目了。
+If you are a beginner, this list will be the first choice for you when you have a difficult time.
 
-**如果你是个 Android 新人，那么我希望这份列表，可以成为你踩到坑时的不完全手册。**
+Welcome `Star` and `Fork`, your support is my greatest affirmation.
 
-当然，这份列表一定会有遗漏，如果不幸，这里没有你所踩到的坑，或者对于某个问题你有更好的 Tips，欢迎分享，让我们一起来维护这个项目！你可以通过 [Commit](https://github.com/tangqi92/Android-Tips/issues) 的形式，当然也欢迎 `Star` 与 `Fork` :)
+---
 
->由于本项目面向的群体为初学者，所以列表的知识点以初级为主，资源大多数为中文，如遇到少数无法访问的情况，请自备梯子。
+学习 Android 至今，大大小小的坑没少踩过，庆幸的是，在强大的搜索引擎与无私奉献的人们的帮助下，那些坑都顺利地被填平了。
 
-## A
+为了日后在遇到同样的问题时，能免于再次搜索带来的麻烦，我养成了收藏书签的习惯，随着书签（Tips）的日积月累，我想，是时候该有这个项目了。
+
+**如果你是个 Android 新人，又不善于搜索或不知道从何开始，那么我相信这份列表，将会成为你的首选。**
+
+当然，这份列表并不完美，如果不幸，这里没有你所踩到的坑，或者对于某个问题你有更好的 Tips，欢迎与大家分享，让我们一起来维护这个项目！
+
+你可以通过 [Pull request](https://github.com/tangqi92/Android-Tips/pulls) 的形式进行提交，当然也欢迎 `Star` 与 `Fork` ：）
+
+>由于各种问题，给出的链接可能会无法正常访问。遇到这种情况欢迎大家提交 [Issue](https://github.com/tangqi92/Android-Tips/issues)，Contributers 也可以使用 [Utils](https://github.com/tangqi92/Android-Tips/tree/master/Utils) 里面的 [URLChecker](https://github.com/tangqi92/Android-Tips/blob/master/Utils/UrlCheckerREADME.md) 来检测列表里链接的有效性，你可以选择更改为新的有效连接，或者把需要**梯子**的文章以 Markdown 的形式保存在 Utils/Content 目录下，并注明原文章链接和作者。
+
+---
+
+## 目录
+
+  * [A](#a)
+  * [B](#b)
+  * [C](#c)
+  * [D](#d)
+  * [E](#e)
+  * [F](#f)
+  * [G](#g)
+  * [H](#h)
+  * [I](#i)
+  * [J](#j)
+  * [K](#k)
+  * [L](#l)
+  * [M](#m)
+  * [N](#n)
+  * [O](#o)
+  * [P](#p)
+  * [Q](#q)
+  * [R](#r)
+  * [S](#s)
+  * [T](#t)
+  * [U](#u)
+  * [V](#v)
+  * [W](#w)
+  * [X](#x)
+  * [Y](#y)
+  * [Z](#z)
+  * [Others](#others)
+  * [Contributors](#contributors)
+  * [Contact Me](#contact-me)
+
+---
+
+### A
 
 ### ADB
 
-1. [Android ADB常用命令](http://segmentfault.com/a/1190000000426049)
-2. [Android开发调试工具ADB的使用](http://www.cnblogs.com/meil/archive/2012/05/24/2516055.html)
-3. [Installing ADB on Windows 7](https://www.youtube.com/watch?v=5U_BfrXV90I)
-4. [Adb connection Error:远程主机强迫关闭了一个现有的连接](http://www.oschina.net/question/54100_33209)
-5. [Android通过Wifi来调试你的应用](http://www.stormzhang.com/android/2014/08/27/adb-over-wifi/)
+1. [Installing ADB on Windows 7](https://www.youtube.com/watch?v=5U_BfrXV90I)
+2. [Android ADB常用命令](http://android.jobbole.com/61592/)
+3. [Android开发调试工具ADB的使用](http://www.cnblogs.com/meil/archive/2012/05/24/2516055.html)
+4. [Android通过Wifi来调试你的应用](http://www.stormzhang.com/android/2014/08/27/adb-over-wifi/)
+5. [Adb connection Error:远程主机强迫关闭了一个现有的连接](http://www.oschina.net/question/54100_33209)
 
 ### Adapter
 
@@ -31,13 +77,27 @@
 1. [android进程间通信：使用AIDL](http://blog.csdn.net/saintswordsman/article/details/5130947)
 2. [Android AIDL使用详解](http://blog.csdn.net/stonecao/article/details/6425019)
 3. [android跨进程通信(IPC): 使用AIDL](http://blog.csdn.net/singwhatiwanna/article/details/17041691)
-4. [Android中的跨进程通信的实现（一）——远程调用过程和aidl](http://foocoder.com/blog/androidzhong-de-kua-jin-cheng-tong-xin-de-shi-xian-(%5B%3F%5D-)-yuan-cheng-diao-yong-guo-cheng-he-aidl.html/)
+4. [Android中的跨进程通信的实现（一）——远程调用过程和aidl](http://blog.csdn.net/notice520/article/details/8135600)
 5. [Android Studio下如何配置AIDL文件](http://chenqichao.me/2014/05/13/003-Android-Studio-AIDL/)
 
 ### Android-Async-Http
 
-1. [快速Android开发系列网络篇之Android-Async-Http](http://www.cnblogs.com/angeldevil/p/3729808.html)
-2. [android-async-http框架库使用基础](http://yanbober.github.io/2014/11/11/csdn-opensource-analysis-5/)
+1. [Asynchronous Http Client for Android](https://github.com/loopj/android-async-http)
+2. [快速Android开发系列网络篇之Android-Async-Http](http://www.cnblogs.com/angeldevil/p/3729808.html)
+3. [android-async-http框架库使用基础](http://yanbober.github.io/2014/11/11/csdn-opensource-analysis-5/)
+
+### Android Studio
+
+1. [Android Studio导入项目](http://ask.android-studio.org/?/article/21)
+2. [Android Studio 简单设置](http://blog.gaoqixhb.com/p/54b9c293bf1ac9364284af78)
+3. [Android Studio 简介及导入 jar 包和第三方开源库方法](http://drakeet.me/android-studio)
+4. [Android Studio使用技巧系列教程（一）](http://blog.csdn.net/growth58/article/details/46729803)
+5. [Android Studio中如何使用Git和Github来管理项目](http://blog.csdn.net/wei18359100306/article/details/45645145)
+6. [Android Studio 权威教程](http://blog.csdn.net/column/details/zsl-androidstudio.html)
+7. [倍数提高工作效率的Android Studio奇技](http://zlv.me/posts/2015/07/13/14_android-studio-tips/)
+8. [Android Studio 快捷键（Windows）](http://blog.csdn.net/altair86/article/details/8972178)
+9. [Android Studio系列教程:安装、基本设置、Gradle基础、打包](http://stormzhang.com)
+10. [Android Studio有什么奇技淫巧](http://www.zhihu.com/question/27482725)
 
 ### AQuery
 
@@ -49,6 +109,13 @@
 1. [Android AsyncTask完全解析，带你从源码的角度彻底理解](http://blog.csdn.net/guolin_blog/article/details/11711405)
 2. [Android中AsyncTask的简单用法](http://blog.csdn.net/cjjky/article/details/6684959)
 3. [Android开发者：你真的会用AsyncTask吗？](http://code.oneapm.com/android/2015/06/02/android1/)
+4. [深入解析AsyncTask,多例子版](http://www.cnblogs.com/anee/archive/2012/09/24/2699829.html)
+
+### AndroidAnnotations
+
+1.[AndroidAnnotations框架入门教程三之Android Studio环境配置](http://zhenhappy.github.io/2015/10/13/Android-Annotatios-3-Android-Studio.html)
+
+---
 
 ## B
 
@@ -66,6 +133,8 @@
 2. [玩转Android---组件篇---Broadcast Receiver（广播接收器）](http://hualang.iteye.com/blog/1003374)
 3. [【Android】动态注册广播接收器](http://blog.csdn.net/etzmico/article/details/7317528)
 
+---
+
 ## C
 
 ### Callback
@@ -80,35 +149,36 @@
 2. [Android CardView Example](http://www.truiton.com/2015/03/android-cardview-example/)
 3. [Android CardView Widget – Add Cards to a List using RecyclerView](http://techlovejump.com/android-cardview-widget-example-add-to-list-using-recyclerview/)
 
-### Check
-
-1. [How to check visibility of software keyboard in Android?](http://stackoverflow.com/questions/2150078/how-to-check-visibility-of-software-keyboard-in-android)
-
 ### Configuration Change
 
 1. [Android Configuration change引发的问题及解决方法](http://blog.csdn.net/aliaooooo/article/details/23606179?utm_source=tuicool)
-2. [Handling Runtime Changes](http://developer.android.com/guide/topics/resources/runtime-changes.html)
+2. [Handling Runtime Changes](https://github.com/troyliu0105/Android-Tips/blob/master/Utils/Content/Handing_Runtime_Changes.md)
 
 ### Context
 
 1. [android学习—— context 和 getApplicationContext()](http://blog.csdn.net/janronehoo/article/details/7348566)
 2. [Android中Context详解 ---- 你所不知道的Context](http://blog.csdn.net/qinjuning/article/details/7310620)
+3. [Difference between getContext() , getApplicationContext() , getBaseContext() and “this”](http://stackoverflow.com/questions/10641144/difference-between-getcontext-getapplicationcontext-getbasecontext-and)
 
 ### CoordinatorLayout
 
 1. [CoordinatorLayout与滚动的处理](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0717/3196.html)
 2. [Handling Scrolls with CoordinatorLayout](https://guides.codepath.com/android/Handling-Scrolls-with-CoordinatorLayout)
 
+---
+
 ## D
 
 ### Download
 
-1. [Download a file with Android, and showing the progress in a ProgressDialog](http://stackoverflow.com/questions/3028306/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog)
+1. [Download a file with Android, and showing the progress in a ProgressDialog](http://stackoverflow.com/questions/3028306/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog) [**译文**](https://github.com/troyliu0105/stackoverflow-java-top-qa/blob/master/contents/Download_a_file_with_Android_and_showing_the_progress_in_a_ProgressDialog.md)
 2. [Java 服务器端支持断点续传的源代码【支持快车、迅雷】](http://blog.csdn.net/defonds/article/details/7074352)
 3. [Java 多线程断点下载文件](http://www.cnblogs.com/hoojo/archive/2011/09/30/2196767.html)
 4. [Android 后台Service下载 （一）](http://blog.csdn.net/qingye_love/article/details/14163511)
 5. [Android网络编程 --断点续传下载文件](http://blog.csdn.net/wwj_748/article/details/20146869)
 6. [android 多线程断点续传下载 一](http://blog.csdn.net/shimiso/article/details/6763664)
+
+---
 
 ## E
 
@@ -116,6 +186,8 @@
 
 1. [EventBus使用详解(一)——初步使用EventBus](http://blog.csdn.net/harvic880925/article/details/40660137)
 2. [快速Android开发系列通信篇之EventBus](http://www.cnblogs.com/angeldevil/p/3715934.html)
+
+---
 
 ## F
 
@@ -129,6 +201,12 @@
 5. [Android实战技巧：Fragment的那些坑](http://toughcoder.net/blog/2015/04/30/android-fragment-the-bad-parts/)
 6. [android Fragments详解四:管理fragment](http://www.cnblogs.com/mybkn/articles/2455138.html)
 7. [Android Fragment 嵌套使用(Nested Fragments)](http://blog.csdn.net/top_code/article/details/37343075)
+
+### FlowLayout - 自定义流布局
+
+1. [Android 自定义ViewGroup - 实现FlowLayout - 本文出自【张鸿洋的博客】](http://blog.csdn.net/lmj623565791/article/details/38352503)
+
+---
 
 ## G
 
@@ -146,6 +224,7 @@
 5. [灵活强大的构建系统Gradle](http://tech.meituan.com/gradle-practice.html)
 6. [Gradle Android Could not find method testPackage()](http://stackoverflow.com/questions/16971740/gradle-android-could-not-find-method-testpackage)
 7. [Android Studio 1.0 Gradle Error with getConfiguration()](http://stackoverflow.com/questions/27410183/android-studio-1-0-gradle-error-with-getconfiguration)
+8. [Android打包的那些事](http://www.jayfeng.com/2015/11/07/Android%E6%89%93%E5%8C%85%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/)
 
 ### greenDao
 
@@ -157,6 +236,21 @@
 
 1. [Android入门第八篇之GridView(九宫图)](http://blog.csdn.net/hellogv/article/details/4567095)
 2. [用Volley让GridView加载网络图片](http://www.cnblogs.com/tianzhijiexian/p/4277873.html)
+3. [Add space to top and bottom of GridView](http://stackoverflow.com/questions/23709114/add-space-to-top-and-bottom-of-gridview)
+
+---
+
+## H
+
+### Hotfix
+
+1. [Android热更新实现原理](http://blog.csdn.net/lzyzsd/article/details/49843581#0-tsina-1-98317-397232819ff9a47a7b7e80a40613cfe1)
+2. [Android App 线上热修复方案](http://lirenlong.github.io/hotfix/)
+3. [Nuwa](https://github.com/jasonross/Nuwa)
+
+### Handler
+
+1. [Handler和他的小伙伴们](http://www.jianshu.com/p/e04698eaba88) 轻松理解Handler、message、looper
 
 ## I
 
@@ -166,8 +260,7 @@
 
 ### Immersive Full-Screen Mode
 
-1. [Using Immersive Full-Screen Mode](https://developer.android.com/training/system-ui/immersive.html)
-2. [全屏沉浸式应用](http://hukai.me/android-training-course-in-chinese/ui/system-ui/immersive.html)
+1. [Using Immersive Full-Screen Mode](https://developer.android.com/training/system-ui/immersive.html)   [**译文**](http://hukai.me/android-training-course-in-chinese/ui/system-ui/immersive.html)
 
 ### Intent
 
@@ -177,6 +270,8 @@
 4. [startActivityForResult用法详解](http://www.cnblogs.com/linjiqin/archive/2011/06/03/2071956.html)
 5. [Android 开发笔记——通过 Intent 传递类对象](http://www.cnblogs.com/shaocm/archive/2013/01/08/2851248.html)
 
+---
+
 ## J
 
 ### Json
@@ -184,6 +279,23 @@
 1. [Android系列---JSON数据解析](http://www.cnblogs.com/xiaoluo501395377/p/3446605.html)
 2. [android json解析及简单例子](http://blog.csdn.net/lilu_leo/article/details/7000077)
 3. [Android开源库--Gson谷歌官方json解析库](http://www.cnblogs.com/leestar54/p/4212318.html)
+4. [DataContract4A-简化Json解析与生成](https://github.com/jywanghold/DataContract4A)
+
+### JNI
+
+1. [Hello JNI](https://github.com/googlesamples/android-ndk/tree/master/hello-jni)
+
+---
+
+## K
+
+### Kotlin
+
+1. [Kotlin Programming Language](https://github.com/JetBrains/kotlin)
+2. [Kotlin中文站点](http://kotlinlang.cn/)
+3. [使用Kotlin进行Android开发](http://ragnraok.github.io/using-kotlin-to-write-android-app.html)
+
+---
 
 ## L
 
@@ -195,6 +307,11 @@
 ### ListView
 
 1. [在Activity中响应ListView内部按钮的点击事件](http://www.cnblogs.com/ivan-xu/p/4124967.html)
+
+### Log
+1、[Logger工具类](https://github.com/orhanobut/logger)
+
+---
 
 ## M
 
@@ -210,10 +327,26 @@
 3. [谢谷歌大神传我动画设计30年功力](http://www.zcool.com.cn/article/ZMTU5MzAw.html#jtss-tsina)
 4. [Codelab for Android Design Support Library used in I/O Rewind Bangkok session](http://inthecheesefactory.com/blog/android-design-support-library-codelab/en)
 
+### MVP
+
+1. [浅谈 MVP in Android](http://blog.csdn.net/lmj623565791/article/details/46596109)
+2. [Android中的MVP](http://rocko.xyz/2015/02/06/Android%E4%B8%AD%E7%9A%84MVP/)
+3. [开源项目Philm的MVP架构分析](http://www.lightskystreet.com/2015/02/10/philm_mvp/)
+
+---
+
 ## N
+
+### NavigationView
+
+1. [Easy Navigation Drawer with Design Support Library](http://blog.grafixartist.com/easy-navigation-drawer-with-design-support-library/)
+
+### Notification
 
 1. [Android——Notifications笔记](http://segmentfault.com/a/1190000000402154)
 2. [Android学习之Notification的简单使用](http://blog.csdn.net/cjllife/article/details/8565370)
+
+---
 
 ## O
 
@@ -221,6 +354,8 @@
 
 1. [Android 快速开发系列 ORMLite 框架最佳实践](http://blog.csdn.net/lmj623565791/article/details/39122981)
 2. [Android ORM框架之 ORMLite](https://www.zybuluo.com/flyouting/note/6996)
+
+---
 
 ## P
 
@@ -238,14 +373,27 @@
 ### Palette
 
 1. [Extracting Colors to a Palette with Android Lollipop](https://www.bignerdranch.com/blog/extracting-colors-to-a-palette-with-android-lollipop/)
-2. [Android Lollipop 新特性 - Palette](http://baoyz.com/android/2014/10/21/android-palette-use/)
+2. [Android Lollipop 新特性 - Palette](https://github.com/troyliu0105/Android-Tips/blob/master/Utils/Content/Android_Lollipop_%E6%96%B0%E7%89%B9%E6%80%A7-Palette.md)
 
 ### Preference
 
 1. [PreferenceActivity（首选项设置页）](http://blog.csdn.net/plussoft/article/details/9993759)
 2. [Android的设置界面及Preference使用](http://blog.csdn.net/ichliebephone/article/details/5916320)
 
+### Picasso
+
+1. [Picasso官方网站及javadoc](http://square.github.io/picasso/)
+2. [Android图片下载缓存库picasso解析](http://blog.csdn.net/xu_fu/article/details/17043231)
+
+---
+
 ## R
+
+### React Native
+
+1. [React Native for Android 入门老虎](http://www.race604.com/react-native-for-android-start/)
+2. [React Native For Android初体验](http://www.jianshu.com/p/847a54e0c385)
+
 
 ### Reference
 
@@ -259,12 +407,26 @@
 3. [A Guide to Android RecyclerView and CardView](http://www.binpress.com/tutorial/android-l-recyclerview-and-cardview-tutorial/156)
 4. [Android-RecyclerView-Item点击事件设置](http://blog.csdn.net/guxiao1201/article/details/40423361)
 5. [Why doesn't RecyclerView have onItemClickListener()? And how RecyclerView is different from Listview?](http://stackoverflow.com/questions/24885223/why-doesnt-recyclerview-have-onitemclicklistener-and-how-recyclerview-is-dif)
+6. [Create RecyclerView with multiple view type](http://doublewong.com/2014/create-recyclerview-with-multiple-view-type/)
+7. [Simple RecyclerView Divider](https://github.com/troyliu0105/Android-Tips/blob/master/Utils/Content/Simple_RecyclerView_Divider.md)
+
+### RxJava
+
+1. [RxJava: Reactive Extensions for the JVM](https://github.com/ReactiveX/RxJava)
+2. [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
+
 
 ### RandomAccessFile
 
 1. [Java RandomAccessFile用法](http://blog.csdn.net/akon_vm/article/details/7429245)
 
+---
+
 ## S
+
+### SearchView
+
+1. [详细解读Android中的搜索框（三）—— SearchView](http://www.cnblogs.com/tianzhijiexian/p/4226675.html)
 
 ### Serializable
 
@@ -302,11 +464,18 @@
 
 1. [Android SwipeRefreshLayout](http://www.stormzhang.com/android/2014/03/29/android-swiperefreshlayout/)
 
+---
+
 ## T
 
 ### Textview
 
 1. [Remove underline from links in TextView](http://stackoverflow.com/questions/4096851/remove-underline-from-links-in-textview-android)
+
+### TouchEvent
+
+1. [两分钟彻底让你明白Android中onInterceptTouchEvent与onTouchEvent(图文)!](http://blog.csdn.net/android_tutor/article/details/7193090)
+2. [MotionEvent事件在onInterceptTouchEvent()、onTouchEvent()中的传递顺序](http://www.cnblogs.com/rocky_yi/archive/2011/01/21/1941522.html#)
 
 ### Thread
 
@@ -320,12 +489,24 @@
 8. [Java(Android)中线程池的使用](http://landerlyoung.github.io/blog/2014/09/23/javazhong-xian-cheng-chi-de-shi-yong/)
 9. [Java(Android)线程池](http://www.trinea.cn/android/java-android-thread-pool/)
 
+---
+
+## U
+
+### Unit Test
+
+1. [Android单元测试](http://www.cnblogs.com/tianzhijiexian/p/4296055.html)
+2. [Don’t Test Blindly: The Right Methods for Unit Testing Your Java Apps](http://zeroturnaround.com/rebellabs/dont-test-blindly-the-right-methods-for-unit-testing-your-java-apps/)
+
+---
+
 ## V
 
 ### ViewPager
 
 1. [ViewPager + Fragment实现滑动标签页](http://blog.csdn.net/lizhenmingdirk/article/details/13631813)
 2. [【移动开发】Android中Fragment+ViewPager的配合使用](http://smallwoniu.blog.51cto.com/3911954/1322746)
+3. [Android 手把手教您自定义ViewGroup（一）本文出自:【张鸿洋的博客】](http://blog.csdn.net/lmj623565791/article/details/38339817)
 
 ### View
 
@@ -346,48 +527,31 @@
 
 ### Volley
 
-1. [Android Volley完全解析(一)，初识Volley的基本用法](http://blog.csdn.net/guolin_blog/article/details/17482095)
-2. [Android库Volley的使用介绍](https://bxbxbai.github.io/2014/09/14/android-working-with-volley/)
+1. [Android Volley](https://github.com/mcxiaoke/android-volley)
+2. [Android Volley完全解析(一)，初识Volley的基本用法](http://blog.csdn.net/guolin_blog/article/details/17482095)
+3. [Android库Volley的使用介绍](https://bxbxbai.github.io/2014/09/14/android-working-with-volley/)
+
+---
 
 ## W
 
 ### WebView
 
-1. [Java 与 JavaScript 如何进行交互](http://itangqi.me/2015/03/07/java-and-javascript-interaction-in-android/)
-2. [android与javascript交互调用](http://blog.csdn.net/chenzheng_java/article/details/6260872)
-3. [Android与js交互实例](http://blog.csdn.net/ithomer/article/details/8737999)
-4. [Android中Java和JavaScript交互](http://droidyue.com/blog/2014/09/20/interaction-between-java-and-javascript-in-android/)
-5. [顶部带进度条的Webview](http://droidyue.com/blog/2014/07/12/ding-bu-dai-jin-du-tiao-de-webview/)
-6. [Android WebView播放视频问题](http://www.stormzhang.com/android/2014/03/23/android-webview-play-video/)
-7. [理解WebKit和Chromium: Android 4.4 上的Chromium WebView](http://blog.csdn.net/milado_nju/article/details/17098399)
-8. [在WebView中如何让JS与Java安全地互相调用](http://www.pedant.cn/2014/07/04/webview-js-java-interface-research/)
-9. [Android WebView的Js对象注入漏洞解决方案](http://blog.csdn.net/leehong2005/article/details/11808557)
+1. [WebView详解](http://1.vduntest.sinaapp.com/webview/WebView%E8%AF%A6%E8%A7%A3.html)
+2. [Java 与 JavaScript 如何进行交互](http://itangqi.me/2015/03/07/java-and-javascript-interaction-in-android/)
+3. [android与javascript交互调用](http://blog.csdn.net/chenzheng_java/article/details/6260872)
+4. [Android与js交互实例](http://blog.csdn.net/ithomer/article/details/8737999)
+5. [Android中Java和JavaScript交互](http://droidyue.com/blog/2014/09/20/interaction-between-java-and-javascript-in-android/)
+6. [顶部带进度条的Webview](http://droidyue.com/blog/2014/07/12/ding-bu-dai-jin-du-tiao-de-webview/)
+7. [Android WebView播放视频问题](http://www.stormzhang.com/android/2014/03/23/android-webview-play-video/)
+8. [理解WebKit和Chromium: Android 4.4 上的Chromium WebView](http://blog.csdn.net/milado_nju/article/details/17098399)
+9. [在WebView中如何让JS与Java安全地互相调用](http://www.pedant.cn/2014/07/04/webview-js-java-interface-research/)
+10. [Android WebView的Js对象注入漏洞解决方案](http://blog.csdn.net/leehong2005/article/details/11808557)
 
-## 其他
-
-### 自定义控件
-
-1. [Android 自定义View及其在布局文件中的使用示例](http://www.cnblogs.com/crashmaker/p/3521310.html)
-2. [自定义控件进阶:declare-styleable重用attr](http://droidyue.com/blog/2014/07/16/better-in-android-include-attrs-in-declare-stylable/)
-3. [android 自定义控件 使用declare-styleable进行配置属性（源码角度）](http://blog.csdn.net/vipzjyno1/article/details/23696537)
-4. [Android使用AttributeSet自定义控件的方法](http://www.cnblogs.com/zwl12549/archive/2011/04/13/2015366.html)
-5. [从源码中浅析Android中如何利用attrs和styles定义控件](http://michaelye1988.iteye.com/blog/1773997)
-6. [Android SDK: Creating Custom Views](http://code.tutsplus.com/tutorials/android-sdk-creating-custom-views--mobile-14548)
-7. [Creating custom and compound Views in Android - Tutorial](http://www.vogella.com/tutorials/AndroidCustomViews/article.html)
-8. [Tutorial: Enhancing Android UI with Custom Views](https://newcircle.com/s/post/1663/tutorial_enhancing_android_ui_with_custom_views_dave_smith_video)
-9. [Android 自定义View (一)](http://blog.csdn.net/lmj623565791/article/details/24252901)
 
 ---
 
-### Android Studio
-
-1. [Android Studio导入项目](http://ask.android-studio.org/?/article/21)
-2. [Android Studio 简单设置](http://blog.gaoqixhb.com/p/54b9c293bf1ac9364284af78)
-3. [Android Studio 简介及导入 jar 包和第三方开源库方法](http://drakeet.me/android-studio)
-4. [Android Studio使用技巧系列教程（一）](http://blog.csdn.net/growth58/article/details/46729803)
-5. [Android Studio中如何使用Git和Github来管理项目](http://blog.csdn.net/wei18359100306/article/details/45645145)
-
----
+## Others
 
 ### Code Style
 
@@ -403,15 +567,9 @@
 2. [GitHub秘籍](http://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html)
 3. [git - 简易指南](http://www.bootcss.com/p/git-guide/)
 4. [基于Github参与开源项目指南](http://yeungeek.com/2015/07/01/%E5%9F%BA%E4%BA%8EGithub%E5%8F%82%E4%B8%8E%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%8C%87%E5%8D%97/)
-
----
-
-### Hexo
-
-1. [如何搭建一个独立博客——简明Github Pages与Hexo教程](http://www.jianshu.com/p/05289a4bc8b2)
-2. [Mac下程序员博客之 Hexo + GitHub Pages + GitCafe Pages + DNSPod](http://godera.org/2015/03/16/Mac%E4%B8%8B%E7%A8%8B%E5%BA%8F%E5%91%98%E5%8D%9A%E5%AE%A2%E4%B9%8BHexo-GitHub-Pages-GitCafe-Pages-DNSPod/)
-3. [动动手指，NexT主题与Hexo更搭哦（基础篇）](http://www.arao.me/2015/hexo-next-theme-optimize-base/)
-4. [hexo博客搭建时遇到的一些问题](http://chitanda.me/2015/06/11/tips-for-setup-hexo/)
+5. [使用git和github进行协同开发流程](http://livoras.com/post/28)  
+6. [如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html#q1)  
+7. [廖雪峰的GIT入门教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 ---
 
@@ -424,17 +582,68 @@
 
 ---
 
+### 设计模式
+
+1. [Java开发中的23种设计模式详解](http://zz563143188.iteye.com/blog/1847029)
+2. [MVC，MVP 和 MVVM 的图示](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
+
+---
+
+### 夜间模式
+
+1. [Android Night Mode 夜间模式实现](http://echo.vars.me/android/android-night-mode/)
+2. [【	android】夜间模式简单实现](http://www.w2bc.com/Article/43471)
+3. [Android夜间模式实现](http://blog.kymjs.com/code/2015/05/26/01/)
+
+---
+
+### 自定义控件
+
+1. [Android 自定义View及其在布局文件中的使用示例](http://www.cnblogs.com/crashmaker/p/3521310.html)
+2. [自定义控件进阶:declare-styleable重用attr](https://github.com/troyliu0105/Android-Tips/blob/master/Utils/Content/declare-styleable_reuse_attr.md)
+3. [android 自定义控件 使用declare-styleable进行配置属性（源码角度）](http://blog.csdn.net/vipzjyno1/article/details/23696537)
+4. [Android使用AttributeSet自定义控件的方法](http://www.cnblogs.com/zwl12549/archive/2011/04/13/2015366.html)
+5. [从源码中浅析Android中如何利用attrs和styles定义控件](http://michaelye1988.iteye.com/blog/1773997)
+6. [Android SDK: Creating Custom Views](http://code.tutsplus.com/tutorials/android-sdk-creating-custom-views--mobile-14548)
+7. [Creating custom and compound Views in Android - Tutorial](http://www.vogella.com/tutorials/AndroidCustomViews/article.html)
+8. [Tutorial: Enhancing Android UI with Custom Views](https://newcircle.com/s/post/1663/tutorial_enhancing_android_ui_with_custom_views_dave_smith_video)
+9. [Android 自定义View (一)](http://blog.csdn.net/lmj623565791/article/details/24252901)
+
+---
+
+### No category
+
 1. [THE DEX 64K LIMIT IS NOT A PROBLEM ANYMORE, ALMOST](http://www.mutualmobile.com/posts/dex-64k-limit-not-problem-anymore-almost)
 2. [Android 4.4从图库选择图片,获取图片路径并裁剪](http://blog.csdn.net/tempersitu/article/details/20557383)
 3. [浅析android应用增量升级](http://blog.csdn.net/hmg25/article/details/8100896)
 4. [Android四大基本组件介绍与生命周期](http://www.cnblogs.com/bravestarrhu/archive/2012/05/02/2479461.html)
 5. [Android代码优化——使用Android lint工具](http://blog.csdn.net/xyz_lmn/article/details/14222939)
 6. [Android 插件化 动态升级](http://www.trinea.cn/android/android-plugin/)
-7. [两分钟彻底让你明白Android中onInterceptTouchEvent与onTouchEvent(图文)!](http://blog.csdn.net/android_tutor/article/details/7193090)
-8. [MotionEvent事件在onInterceptTouchEvent()、onTouchEvent()中的传递顺序](http://www.cnblogs.com/rocky_yi/archive/2011/01/21/1941522.html#)
-9. [Java String StringBuilder StringBuffer](http://www.stormzhang.com/java/2014/08/08/java-string-stringbuilder-stringbuffer/)
-10. [tools:context=".MainActivity的作用](http://blog.csdn.net/caiwenfeng_for_23/article/details/8373569)
-11. [MVC，MVP 和 MVVM 的图示](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
-12. [关于APK瘦身值得分享的一些经验](http://www.jianshu.com/p/bd90dee57ad0)
-13. [Java开发中的23种设计模式详解](http://zz563143188.iteye.com/blog/1847029)
-14. [性能优化之数据库优化](http://www.trinea.cn/android/database-performance/)
+7. [Java String StringBuilder StringBuffer](http://www.stormzhang.com/java/2014/08/08/java-string-stringbuilder-stringbuffer/)
+8. [tools:context=".MainActivity的作用](http://blog.csdn.net/caiwenfeng_for_23/article/details/8373569)
+9. [关于APK瘦身值得分享的一些经验](http://www.jianshu.com/p/bd90dee57ad0)
+10. [性能优化之数据库优化](http://www.trinea.cn/android/database-performance/)
+11. [How to check visibility of software keyboard in Android?](http://stackoverflow.com/questions/2150078/how-to-check-visibility-of-software-keyboard-in-android)
+12. [android 4.4.4侧滑退出显示app启动界面](https://github.com/ikew0ng/SwipeBackLayout/issues/45)
+13. [Error retrieving parent for item: No resource found that matches the given name after upgrading to AppCompat v23](http://stackoverflow.com/questions/32075498/error-retrieving-parent-for-item-no-resource-found-that-matches-the-given-name)
+
+---
+
+## Contributors
+
+- [troyliu0105](https://github.com/troyliu0105)
+- [whiskeyfei](https://github.com/whiskeyfei)
+- [wavever](https://github.com/wavever)
+- [nitta-honoka](https://github.com/nitta-honoka)
+- [jywanghold](https://github.com/jywanghold)
+- [yy1300326388](https://github.com/yy1300326388)
+
+---
+
+## Contact Me
+
+Born in 1992, now a student of Southeast University, master of software engineerin. Loving technology, programming, reading and sports.
+
+I will graduate in June 2017, expect the internship or full-time job in Android or iOS.
+
+If you have any questions or want to make friends with me, please feel free to contact me : [imtangqi#gmail.com](mailto:imtangqi@gmail.com "Welcome to contact me")  
